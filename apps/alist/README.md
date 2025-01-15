@@ -24,6 +24,15 @@ services:
         restart: unless-stopped
 ```
 
+## 密码设置
+
+```
+# 随机生成一个密码
+docker exec -it alist ./alist admin random
+# 手动设置一个密码,`NEW_PASSWORD`是指你需要设置的密码
+docker exec -it alist ./alist admin set 1
+```
+
 ## 相关地址
 
 官方：https://alist.nn.ci/zh/
