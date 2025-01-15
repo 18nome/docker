@@ -1,8 +1,7 @@
 additionalProperties:
-  name: Alist
+  name: Nginx Proxy Manager
   tags:
-    - 本地挂载
-    - 网盘挂载
+    - 网站代理
     - Website    
-  shortDescZh: 一个支持多种存储的文件列表程序，使用 Gin 和 Solidjs。
-  website: https://alist.nn.ci/zh/guide/install/docker.html
+  shortDescZh: 在您的网络上公开 Web 服务。使用 Let's Encrypt 免费提供 SSL。设计时充分考虑了安全性。非常适合家庭网络。
+  website: https://nginxproxymanager.com/
