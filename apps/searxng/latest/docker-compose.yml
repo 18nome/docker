@@ -1,9 +1,9 @@
 services:
   searxng:
     image: searxng/searxng:latest
-    container_name: ${NAME}
+    container_name: searxng
     ports:
-      - ${PORT}:8080
+      - 8061:8080
     volumes:
       - ./data:/etc/searxng:rw
     cap_drop:
