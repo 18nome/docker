@@ -1,8 +1,0 @@
-additionalProperties:
-  key: searxng
-  name: SearXNG
-  tags:
-    - Website
-  shortDescZh: 一个免费的互联网元聚合搜索引擎    
-  type: website
-  website: https://github.com/searxng/searxng
