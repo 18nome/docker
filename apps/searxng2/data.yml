@@ -3,7 +3,7 @@ additionalProperties:
   name: SearXNG
   tags:
     - Website
-  shortDesc: 一个免费的互联网元聚合搜索引擎    
+  shortDescZh: 一个免费的互联网元聚合搜索引擎    
   type: website
   website: https://github.com/searxng/searxng
   github: https://github.com/searxng/searxng
