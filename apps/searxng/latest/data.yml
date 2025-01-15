@@ -2,5 +2,4 @@ additionalProperties:
   formFields:
     - default: searxng
       edit: true
-      envKey: CONTAINER_NAME
-      labelZh: 容器名
+      envKey: NAME

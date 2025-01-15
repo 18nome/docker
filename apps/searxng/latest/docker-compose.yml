@@ -1,7 +1,7 @@
 services:
   searxng:
     image: searxng/searxng:latest
-    container_name: ${CONTAINER_NAME}
+    container_name: ${NAME}
     ports:
       - 8061:8080
     volumes:
