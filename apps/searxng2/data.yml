@@ -1,13 +1,14 @@
 name: SearXNG
 tags:
   - 建站
-title: 一个免费的互联网元聚合搜索引擎
-description: 这是一个description显示位置
+title: title
+description: description
 additionalProperties:
   key: searxng
   name: SearXNG
   tags:
     - Website
+  shortDescZh: 一个免费的互联网元聚合搜索引擎    
   type: website
   crossVersionUpdate: true
   limit: 0
