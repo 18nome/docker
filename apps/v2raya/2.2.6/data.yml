@@ -1,18 +1,18 @@
 additionalProperties:
   formFields:
-    - default: 40161
+    - default: 40052
       edit: true
       envKey: PANEL_APP_PORT_HTTP
-      labelEn: Port
-      labelZh: 端口
+      labelEn: WebUI Port
+      labelZh: 网页端口
       required: true
       rule: paramPort
       type: number
-    - default: 40162
+    - default: 32346
       edit: true
-      envKey: PANEL_APP_PORT_XIAOYA
-      labelEn: xiaoya Alist Port
-      labelZh: 小雅 Alist 端口
+      envKey: PLUGIN_PORT
+      labelEn: Internal plug-in port
+      labelZh: 内部插件端口
       required: true
       rule: paramPort
       type: number
