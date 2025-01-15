@@ -1,1 +1,7 @@
+## SearXNG
+
 SearXNG 是一款免费的互联网元搜索引擎，它汇总了来自各种搜索服务和数据库的结果。它不会跟踪或分析用户。
+
+## 拉取镜像
+
+docker pull searxng/searxng:latest
