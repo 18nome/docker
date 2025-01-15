@@ -1,8 +1,8 @@
-name: SearXNG
+name: 外部SearXNG标题
 tags:
   - 建站
-title: title
-description: description
+title: 一个免费的互联网元聚合搜索引擎
+description: 一个免费的互联网元聚合搜索引擎
 additionalProperties:
   key: searxng
   name: SearXNG
@@ -10,8 +10,7 @@ additionalProperties:
     - Website
   shortDescZh: 一个免费的互联网元聚合搜索引擎    
   type: website
-  crossVersionUpdate: true
-  limit: 0
+  limit: 111
   recommend: 0
   website: https://github.com/searxng/searxng
   github: https://github.com/searxng/searxng
