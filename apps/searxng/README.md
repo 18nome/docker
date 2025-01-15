@@ -8,6 +8,32 @@ SearXNG 是一款免费的互联网元搜索引擎，它汇总了来自各种搜
 docker pull searxng/searxng:latest
 ```
 
-## 官方地址
+## docker compose
 
-https://github.com/searxng/searxng
+```
+services:
+  searxng:
+    image: searxng/searxng:latest
+    container_name: searxng
+    ports:
+      - 8061:8080
+    volumes:
+      - ./data:/etc/searxng:rw
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - SETGID
+      - SETUID
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '1m'
+        max-file: '1'
+    restart: unless-stopped
+```
+
+
+## 相关地址
+
+Github：https://github.com/searxng/searxng
