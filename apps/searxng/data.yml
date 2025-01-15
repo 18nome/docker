@@ -1,5 +1,4 @@
 additionalProperties:
-  key: searxng
   name: SearXNG
   tags:
     - Website
